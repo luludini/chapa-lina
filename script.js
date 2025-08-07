@@ -1,7 +1,7 @@
 const botaoNao = document.getElementById("nao");
 const botaoSim = document.getElementById("sim");
 const mensagem = document.getElementById("mensagem");
-const bobona = document.getElementById("bobona");
+const bobao = document.getElementById("bobao");
 const container = document.querySelector(".container");
 const buttons = document.querySelector(".buttons");
 
@@ -13,7 +13,7 @@ botaoNao.addEventListener("mouseover", () => {
 	container.style.top = `${y}px`;
 
 	// Mostra a mensagem
-	bobona.textContent = "Ih... vai ter que me grelhar hein bobona";
+	bobao.textContent = "Ih... vai ter que jogar com sua irmãzinha querida hein bobão";
 });
 
 botaoSim.addEventListener("click", () => {
@@ -26,11 +26,11 @@ botaoSim.addEventListener("click", () => {
 	// Esconde os botões "Sim" e "Não"
 	buttons.style.display = "none";
 
-	bobona.textContent = "";
+	bobao.textContent = "";
 
 	// Mostra a mensagem
 	mensagem.textContent =
-		"Você agora vai me fazer de misto quente por livre e espontânea vontade. Te amo, tá certo Lina? ❤️";
+		"Você agora vai ter que jogar minezin comigo por livre e espontânea vontade. Te amo, Peidinho! 💙";
 
 	// Cria o botão de restart
 	const botaoRestart = document.createElement("button");
@@ -43,7 +43,7 @@ botaoSim.addEventListener("click", () => {
 		// Reseta tudo
 		buttons.style.display = "block";
 		mensagem.textContent = "";
-		bobona.textContent = "";
+		bobao.textContent = "";
 		botaoRestart.remove();
 	});
 });

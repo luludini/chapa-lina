@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #a8ffb5;
+	background-color: #553c29;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -10,14 +10,19 @@ body {
 
 .container {
 	text-align: center;
-	background-color: #fff;
+	background-color: #4f793d;
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-	color: #333;
+	color: #fff;
+}
+
+.icon-mine {
+	width: 30px;
+
 }
 
 .buttons {
@@ -47,7 +52,7 @@ button {
 #mensagem {
 	margin-top: 20px;
 	font-size: 18px;
-	color: #4caf50;
+	color: #fff;
 	font-weight: bold;
 }
 
